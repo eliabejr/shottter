@@ -1,0 +1,42 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#shots {
+
+}
+.wall__header {
+  font-size: 32px;
+  font-family: 'Arial', sans-serif;
+}
+
+.btn {
+  margin-right: auto;
+  margin-left: auto;
+  height: 40px;
+  width: 100%;
+}
+
+.shot {
+  margin: 20px auto;
+  overflow: hidden;
+  display: table;
+}
+.shot-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-repeat: no-repeat;
+  float: left;
+  display: table-cell;
+}
+.shot-likes {
+  float: left;
+}
+.shot-username {
+  float: left;
+}
