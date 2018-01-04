@@ -1,42 +1,32 @@
-*,
-*:before,
-*:after {
+* {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
-#shots {
+h1 {
+  color: darkslategray;
+  font-family: Roboto;
+  font-weight: 900; }
 
-}
-.wall__header {
-  font-size: 32px;
-  font-family: 'Arial', sans-serif;
-}
-
-.btn {
-  margin-right: auto;
-  margin-left: auto;
-  height: 40px;
-  width: 100%;
-}
+header {
+  margin: 8px; }
 
 .shot {
-  margin: 20px auto;
+  border-radius: 2px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.11);
   overflow: hidden;
-  display: table;
-}
-.shot-image {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  object-repeat: no-repeat;
-  float: left;
-  display: table-cell;
-}
-.shot-likes {
-  float: left;
-}
-.shot-username {
-  float: left;
-}
+  transition: all .2s ease-in-out; }
+  .shot:hover {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3) !important; }
+  .shot-preview img {
+    width: 100%; }
+  .shot-footer {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: -30px;
+    position: absolute; }
+    .shot-footer .expand-shot {
+      color: #03a9f4;
+      transition: all .2s ease-in-out; }
+      .shot-footer .expand-shot:hover {
+        color: #111; }

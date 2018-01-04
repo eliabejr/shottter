@@ -1,0 +1,34 @@
+{
+    "name": "shotter",
+    "version": "1.0.0",
+    "description": "Do Simple, Do better.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "gulp",
+        "run": "gulp prod"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eliabejr/shotter.git"
+    },
+    "author": "Eliabe Junior",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/eliabejr/shotter/issues"
+    },
+    "homepage": "https://github.com/eliabejr/shotter#readme",
+    "devDependencies": {
+        "browser-sync": "^2.18.8",
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "^2.3.2",
+        "gulp-image-optimization": "^0.1.3",
+        "gulp-notify": "^2.2.0",
+        "gulp-pug": "^3.3.0",
+        "gulp-sass": "^3.1.0",
+        "gulp-watch": "^4.3.11"
+    },
+    "dependencies": {
+        "node-sass": "^4.5.1",
+        "sass-extract": "^0.3.4"
+    }
+}
