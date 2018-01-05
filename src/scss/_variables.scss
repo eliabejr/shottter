@@ -1,11 +1,18 @@
 //COLORS
-$blue: rgb(3, 169, 244);
-$indigo: rgb(63, 81, 181);
-$red: rgb(244, 67, 54);
-$green: rgb(76, 175, 80);
-$yellow: rgb(255, 235, 59);
-$orange: rgb(255, 152, 0);
-$purple: rgb(156, 39, 176);
+$blue          : #3a8bbb;
+$indigo        : rgb(63, 81, 181);
+$red           : rgb(244, 67, 54);
+$green         : #66cc99;
+$yellow        : rgb(255, 235, 59);
+$orange        : rgb(255, 152, 0);
+$purple        : rgb(156, 39, 176);
+$pink          : #ea4c89;
+
+
+$gray-dark     : #333;
+$gray          : #555;
+$gray-light    : #aaa;
+$gray-lighter  : #eaeaea;
 
 //SETTINGS
-$color-theme: $blue;
+$color-theme: $pink;
