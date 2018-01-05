@@ -44,26 +44,25 @@ header {
     }   
 
     &-footer {
-        align-items: center;
+        cursor: pointer;
         display: flex;
         justify-content: center;
         margin-top: -30px;
         width: 100%;
-
-        span {
-            margin-left: 10px;
-            margin-top: -5px;
-        }
-
         
         label {
+            align-items: center;
             color: $color-theme;
+            display: flex;
+            cursor: pointer;
             transition: all .2s ease-in-out;
-            
-            &:hover {
-                color: #111;
-            }
         }
+        
+        span {
+            margin-left: 10px;
+            color: black;
+        }
+        
         
     }
     
@@ -195,6 +194,10 @@ header {
         display: inline-block;
         line-height: 10px;
         margin-left: 10px;
+    }
+
+    .author-profile {
+        margin-right: 20px;
     }
 
     .interaction-infos {

@@ -29,19 +29,20 @@ header {
   .shot-preview img {
     width: 100%; }
   .shot-footer {
-    align-items: center;
+    cursor: pointer;
     display: flex;
     justify-content: center;
     margin-top: -30px;
     width: 100%; }
+    .shot-footer label {
+      align-items: center;
+      color: #ea4c89;
+      display: flex;
+      cursor: pointer;
+      transition: all .2s ease-in-out; }
     .shot-footer span {
       margin-left: 10px;
-      margin-top: -5px; }
-    .shot-footer label {
-      color: #ea4c89;
-      transition: all .2s ease-in-out; }
-      .shot-footer label:hover {
-        color: #111; }
+      color: black; }
   .shot input:checked ~ .shot-content {
     opacity: 1;
     transform: translateX(0); }
@@ -127,6 +128,8 @@ header {
     display: inline-block;
     line-height: 10px;
     margin-left: 10px; }
+  .modal-header .author-profile {
+    margin-right: 20px; }
   .modal-header .interaction-infos {
     display: flex; }
     .modal-header .interaction-infos span {
