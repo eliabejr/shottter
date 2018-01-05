@@ -95,7 +95,12 @@ header {
         &:focus {
             color: darken($red, 10%);
         }
+
+        @media (max-width:480px) {
+            align-self: flex-end;
+        }
     }
+
       
 } 
 
@@ -141,6 +146,11 @@ header {
         transform: translate(-50%,-50%);
         position: fixed;
         top: 50%;
+
+        @media (max-width:480px) {
+            overflow-y: scroll;
+            max-height: 100vh;
+        }
     }
 }
  
@@ -157,7 +167,11 @@ header {
     transform: translate(-50%,-150%); 
     transition: .6s ease-in-out;
     width: 80%; 
-    z-index: 103; 
+    z-index: 103;
+
+    @media (max-width:480px) {
+        width: 100%;
+    }
 }
 
 .modal-body { 
@@ -219,6 +233,13 @@ header {
         i {
             margin-right: 10px;
         }
+    }
+
+    @media (max-width:480px) {
+        flex-flow: column-reverse;
+         .author-profile {
+             display: none
+         }
     }
 }
  
